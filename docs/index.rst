@@ -1747,8 +1747,8 @@ If your stories require dependencies, you can define them as a service:
 
     final class PostStory extends Story
     {
-        private $serviceA;
-        private $serviceB;
+        private ServiceA $serviceA;
+        private ServiceB $serviceB;
 
         public function __construct(ServiceA $serviceA, ServiceB $serviceB)
         {
