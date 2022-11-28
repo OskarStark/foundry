@@ -12,7 +12,7 @@ Installation
 
     $ composer require zenstruck/foundry --dev
 
-To use the ``make:*`` commands from this bundle, ensure
+To use the ``make:*`` commands from this bundle, ensures
 `Symfony MakerBundle <https://symfony.com/bundles/SymfonyMakerBundle/current/index.html>`_ is installed.
 
 *If not using Symfony Flex, be sure to enable the bundle in your **test**/**dev** environments.*
